@@ -1,0 +1,10 @@
+#install docker ubuntu 20.04
+sudo apt install docker.io -y
+sudo systemctl enable --now docker
+sudo usermod -aG docker SOMEUSERNAME
+docker --version
+
+#install docker-compose ubuntu 20.04
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version

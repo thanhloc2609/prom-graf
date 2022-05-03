@@ -1,0 +1,1 @@
+msiexec.exe /i C:\windows_exporter-0.18.1-amd64.msi ENABLED_COLLECTORS="ad,cpu,cs,logon,memory,logical_disk,os,service,system,process,tcp,net,textfile,thermalzone,mssql"
